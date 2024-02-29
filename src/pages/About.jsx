@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "../components/Nav";
-import Loader from "../components/Loader";
+
 import "../Css/About.css"
 import Hero from "../components/Hero";
 import img1 from "../assets/Images/get1free.jpg"
@@ -17,7 +17,7 @@ const About = () => {
   return (
     <div>
       {/* <Menu/> */}
-      <Loader/>
+      
       <Hero heading="Welcome to About page" image={img1}/>
       <div>
         <h1>Daniel's React App 1.0</h1>
